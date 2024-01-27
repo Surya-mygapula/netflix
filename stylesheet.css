@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.navbar_netflix {
+    height: 100%;
+    width: 125px;
+}
+
+.navbar_nav_items {
+    display: flex;
+    gap: 10px;
+}
+
+.netflix_logo {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.language_drop_down {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.signin_button{
+    background-color: red;
+    border: red;
+    color: white;
+    border: 1px solid white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    
+}
+
+.dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.4) ;
+}
+
+.hero_bg_img_cont{
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+}
+
+.hero_bg_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hero_bg_overlay{
+    position: absolute;
+    insert: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.6)
+}
+
+.hero_card{
+    position: absolute;
+    top: 38%;
+    left: 17%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero_title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero_subtitle{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.hero_desc{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.email{
+    width: 450px;
+    height: 60px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.getstarted{
+    font-size: large;
+    width: 170px;
+    height: 60px;
+    background-color: #dc030f;
+    border: 1px solid #dc030f ;
+    
+}.card1
+.card2
+.card3{
+    border-top: 8px rgb(69, 69, 69);
+    padding: 50px;
+}
+
+.card1{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align:left ;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.gif{
+    position: absolute;
+    width: 100%;
+    top: 21%;
+    right: 52.5%;
+    opacity: 50%;
+}
+
+.gif2{
+    position: absolute;
+    width: 90%;
+    top: 305%;
+    right: 55.5%;
+    opacity: 70%;
+}
+.decs1{
+    position: absolute;
+    font-size: large;
+    top: 40%;
+    right: 10%;
+    text-align:left ;
+    align-items: center;
+
+}
+
+.desc2{
+    position: absolute;
+    font-size: large;
+    top: 250%;
+    right: 5%;
+    text-align:left ;
+    align-items: center;
+
+}
+
+.decs3{
+    position: absolute;
+    font-size: large;
+    top: 320%;
+    right: 5%;
+    text-align:left ;
+    align-items: center;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: black;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    height: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
